@@ -1,0 +1,11 @@
+Float Input
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float f;
+    cin>>f;
+    printf("%.6f",f);
+    return 0;
+}
