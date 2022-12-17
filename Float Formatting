@@ -1,0 +1,14 @@
+Float Formatting
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a;
+    cin >>a;
+    printf("%f",a);
+    printf("\n%.3f",a);
+    printf("\n%.2f",a);
+    printf("\n%.1f",a);
+    return 0;
+}
