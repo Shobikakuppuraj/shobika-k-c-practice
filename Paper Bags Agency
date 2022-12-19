@@ -1,0 +1,13 @@
+Paper Bags Agency
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int w,x,y;
+    int a;
+    cin>>w>>x>>y;
+    a=((w*x)-(w*y))-100;
+    cout<<a;
+    return 0;
+}
