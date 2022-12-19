@@ -1,0 +1,15 @@
+Culturals Training
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    int r,s;
+    cin>>a>>b;
+    r=(a/b);
+    s=a-(r*b);
+    cout<<r<<endl<<s<<endl;
+    return 0;
+    
+}
