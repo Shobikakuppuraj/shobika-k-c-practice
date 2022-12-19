@@ -1,0 +1,19 @@
+Business Proposal
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int p,r,n;
+    cin>>p>>r>>n;
+    float a,b,c,d;
+    a=(p*r*n)/100;
+    b=p+a;
+    c=(0.02*a);
+    d=((a+p)-c);
+    printf("%.2f",a);
+    printf("\n%.2f",b);
+    printf("\n%.2f",c);
+    printf("\n%2f",d);
+    return 0;
+}
