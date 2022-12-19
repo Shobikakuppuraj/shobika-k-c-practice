@@ -1,0 +1,15 @@
+Team Flash
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float x1,y1,x2,y2;
+    float a,b;
+    cin>>x1>>y1>>x2>>y2;
+    a=(x1+x2)/2;
+    b=(y1+y2)/2;
+    printf("%.1f",a);
+    printf("\n%.1f",b);
+    return 0;
+}    
