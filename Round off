@@ -1,0 +1,13 @@
+Round off
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    float a;
+    cin>>a;
+    printf("%.f",floor(a));               
+    printf("\n%.1f",ceil(a));                  
+     printf("\n%.1f",floor(a));                           
+}
