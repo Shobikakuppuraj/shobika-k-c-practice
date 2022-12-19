@@ -1,0 +1,16 @@
+Romans VS Greeks
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y,l;
+    cin>>x>>y>>l;
+    int a,b,c,d;
+    a=x+l;
+    b=y+l;
+    c=(a+x)/2;
+    d=(b+y)/2;
+    printf("%d %d",c,d);
+    return 0;
+}
