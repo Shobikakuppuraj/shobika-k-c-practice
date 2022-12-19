@@ -1,0 +1,19 @@
+The Discount
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float item1,item2,d;
+    
+    cin>>item1>>item2;
+    cin>>d;
+    float a,b,c;
+    a=item1+item2;
+    b=a-(a*(d/100));
+    c=a*(d/100);
+    printf("%.2f",a);
+    printf("\n%.2f",b); 
+    printf("\n%.2f",c);
+    return 0;
+} 
